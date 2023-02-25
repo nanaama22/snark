@@ -1,0 +1,65 @@
+
+.sidebar {
+     width: 19.2%;
+     background-color: #ffffff;
+     color: black;
+     border-radius: 15px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     filter: drop-shadow(0 20px 13px rgb(91 71 188 / 0.03)) drop-shadow(0 8px 5px rgb(91 71 188 / 0.08));
+}
+
+.logo-n-menu {
+     margin-top: 10%;
+     font-size: 20px;
+     font-weight: 500;
+     color: #949494;
+}
+
+.logo {
+     margin: 0 auto;
+     height: 10%;
+     display: flex;
+     justify-content: center;
+}
+
+.menu {
+     margin-top: 40%;
+}
+
+.menu li  {
+     display: flex;
+     align-items: center;
+     margin-bottom: 14%;
+     padding-left: 17%;
+}
+
+.menu li img {
+     margin-right: 5%;
+}
+
+.menu li p {
+     font-size: 1rem;
+     font-weight: 500;
+}
+
+.logout {
+     margin-left: 17%;
+     margin-bottom: 18%;
+     font-size: 20px;
+     font-weight: 500;
+     color: #949494;
+     cursor: pointer;
+}
+
+.logout-data {
+     display: flex;
+     align-items: center;
+}
+
+.logout-data > * + * {
+     font-size: 1rem;
+     margin-left: 16px;
+}
+

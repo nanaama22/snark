@@ -1,0 +1,26 @@
+.chart-card {
+     background-color: white;
+     border-radius: 1rem;
+     padding: 1.5rem 2rem;
+}
+.chart-details {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+
+.chart-details h4 {
+     font-weight: 600;
+     font-size: 0.938rem;
+     color: #747474;
+}
+
+.time-button {
+     padding: 0.4rem 0.5rem;
+     background-color: #F8F8FF;
+     border: 2.2px solid #1F419D;
+     color: #1F419D;
+     font-weight: 500;
+     border-radius: 0.5rem;
+     cursor: pointer;
+}

@@ -1,0 +1,8 @@
+.p-card {
+     width: auto;
+     height: fit-content;
+     border-radius: 1rem;
+     padding: 1.5rem 2.5rem;
+     background-color: white;
+     filter: drop-shadow(0 20px 13px rgb(91 71 188 / 0.03)) drop-shadow(0 8px 5px rgb(91 71 188 / 0.08));
+}

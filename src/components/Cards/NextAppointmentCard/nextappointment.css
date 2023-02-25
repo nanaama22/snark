@@ -1,0 +1,55 @@
+.n-card {
+     width: auto;
+     height: fit-content;
+     border-radius: 1rem;
+     padding: 1.5rem 2.5rem;
+     background-color: white;
+     filter: drop-shadow(0 20px 13px rgb(91 71 188 / 0.03)) drop-shadow(0 8px 5px rgb(91 71 188 / 0.08));
+}
+
+h4 {
+     color: #747474;
+     font-size: 0.938rem;
+     font-weight: 600;
+}
+
+.bio-data {
+     display: flex;
+     margin-top: 1rem;
+}
+
+.bio-data img {
+     height: 3.75rem;
+}
+
+.ap-data {
+     width: 100%;
+     margin-left: 1rem;
+     border-bottom: 1.5px solid #E4E4E4;
+}
+
+.name-n-time {
+     width: 100%;
+     background-color: aqua;
+     color: black;
+     display: flex;
+     justify-content: space-between;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 24px;
+}
+
+.ap-data h6 {
+     color: #949494
+}
+
+.view-history {
+     width: 100%;
+     padding: 0.4rem 0.5rem;
+     background-color: #F8F8FF;
+     border: 2.2px solid #1F419D;
+     color: #1F419D;
+     font-weight: 500;
+     border-radius: 0.5rem;
+     cursor: pointer;
+}

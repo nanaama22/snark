@@ -1,0 +1,15 @@
+.table-card {
+     background-color: white;
+     border-radius: 1rem;
+     padding: 1.5rem 2rem;
+}
+.table-details {
+     display: flex;
+     align-items: center;
+}
+
+.table-details h4 {
+     font-weight: 600;
+     font-size: 0.938rem;
+     color: #747474;
+}

@@ -13,7 +13,11 @@ const NextAppointment = () => {
                               <h6>Video Consultation</h6>
                          </div>
                     </div>
-                    
+                    <div className='patient-details'>
+                         <div className='p-desc'> <p className='p-desc-metric'>Age:</p> <p className='p-desc-value'>18</p> </div>
+                         <div className='p-desc'> <p className='p-desc-metric'>Gender:</p> <p className='p-desc-value'>Female</p> </div>
+                         <div className='p-desc'> <p className='p-desc-metric'>Reason:</p> <p className='p-desc-value'>Arthritis</p> </div>
+                    </div>
                </div>
                <button className="view-history">View Patient History</button>
           </div>

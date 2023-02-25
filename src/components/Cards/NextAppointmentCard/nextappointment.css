@@ -15,7 +15,7 @@ h4 {
 
 .bio-data {
      display: flex;
-     margin-top: 1rem;
+     margin: 1rem 0;
 }
 
 .bio-data img {
@@ -28,19 +28,49 @@ h4 {
      border-bottom: 1.5px solid #E4E4E4;
 }
 
+.ap-data h6 {
+     color: #949494;
+     font-weight: 600;
+     font-size: 13px;
+     line-height: 20px;
+
+}
+
 .name-n-time {
      width: 100%;
-     background-color: aqua;
+     /* background-color: aqua; */
      color: black;
      display: flex;
      justify-content: space-between;
      font-weight: 700;
-     font-size: 16px;
+     font-size: 1rem;
      line-height: 24px;
 }
 
-.ap-data h6 {
-     color: #949494
+.patient-details {
+     margin-left: 26%;
+     margin-bottom: 1.5rem;
+     color: #949494;
+}
+
+.patient-details > * + * {
+     margin-top: 0.5rem;
+}
+
+.p-desc {
+     display: grid;
+     grid-template-columns: repeat(3, minmax(0, 1fr));
+     gap: 1rem;
+}
+
+.p-desc-metric {
+     grid-column: span 1 / span 1;
+     text-align: left;
+}
+
+.p-desc-value {
+     grid-column: span 2 / span 2;
+     text-align: left;
 }
 
 .view-history {

@@ -28,6 +28,15 @@
      margin-top: 40%;
 }
 
+.menu-link {
+     color: #949494;
+     text-decoration: none;
+}
+
+.menu-link :hover {
+     color: #1F419D;
+}    
+
 .menu li  {
      display: flex;
      align-items: center;

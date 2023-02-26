@@ -1,0 +1,75 @@
+
+.doctor-profile-info-card {
+     width: auto;
+     height: fit-content;
+     border-radius: 1rem;
+     padding: 1rem 2rem;
+     background-color: white;
+     filter: drop-shadow(0 20px 13px rgb(91 71 188 / 0.03)) drop-shadow(0 8px 5px rgb(91 71 188 / 0.08));
+}
+
+
+.d-details {
+     display: flex;
+     align-items: center;
+     margin-bottom: 1rem;
+}
+
+.d-details > * + * {
+     margin-left: 1rem;
+}
+
+.d-details img {
+     height: 4rem;
+     border-radius: 100%;
+     margin-left: 1rem;
+     margin-right: 1rem;
+}
+
+.professional-bio {
+     text-align: center;
+     padding: 1rem 0;
+}
+
+.professional-bio h4 {
+     margin-bottom: 0.5rem;
+     color: #949494;
+}
+
+.professional-bio p {
+     color: #514E4E;
+     text-transform: capitalize;
+     font-size: 0.8rem;
+}
+
+.doctor-info {
+     padding: 1rem 0 0.5rem 0;
+}
+
+.doctor-info > * + * {
+     margin-top: 1rem;
+}
+
+.doctor-info-stat {
+     display: flex;
+     justify-content: space-between;
+}
+
+.d-stat-value { 
+     width: 60%;
+     font-size: 0.8rem;
+     text-align: right;
+}
+
+.d-stat-name {
+     width: 40%;
+     font-size: 0.8rem;
+     font-weight: 600;
+     color: #767272;
+}
+
+.doctor-info-stat p {
+     font-size: 0.8rem;     
+     color: #514E4E;
+     text-transform: capitalize;
+}

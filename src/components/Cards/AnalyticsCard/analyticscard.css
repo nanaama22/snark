@@ -1,0 +1,51 @@
+
+.analytics-card {
+     width: auto;
+     height: fit-content;
+     border-radius: 1rem;
+     padding: 1.5rem 2.5rem;
+     background-color: white;
+     filter: drop-shadow(0 20px 13px rgb(91 71 188 / 0.03)) drop-shadow(0 8px 5px rgb(91 71 188 / 0.08));
+
+     display: grid;
+     grid-template-columns: repeat(3, minmax(0, 1fr));
+     gap: 2rem;
+}
+
+.analytics {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+}
+
+/* .analytics h4 {
+     font-weight: 400;
+     font-size: 0.5rem;
+     text-transform: capitalize;
+     color: #6F6D6D;
+     text-align: center;
+     background-color: red;
+} */
+.a-label {
+     font-weight: 600;
+     font-size: 0.813rem;
+     text-transform: capitalize;
+     color: #6F6D6D;
+     text-align: center;
+}
+
+.analytics-graph {
+     width: 120px;
+     height: 120px;
+     background-color: #1F419D;
+     margin: 0.625rem auto;
+     border-radius: 100%;
+}
+
+.analytics-desc {
+     font-weight: 500;
+     font-size: 0.813rem;
+     line-height: 16px;
+     text-align: center;
+     color: #636262;
+}

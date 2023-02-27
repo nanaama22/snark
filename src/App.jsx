@@ -1,5 +1,4 @@
 
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Layout } from './container/Layout/Layout';
 import  Messages  from './pages/Messages/Messages';
 import {
@@ -9,8 +8,9 @@ import {
      useRoutes,
      Navigate,
 } from "react-router-dom";
-import { Layout } from "./container/Layout/Layout";
+
 import Home from "./pages/Home/Home";
+import Calendar from "./pages/Calendar/Calendar";
 // import Messages from "./pages/Messages/Messages";
 import PageNotFound from "./pages/PageNotFound/PageNotFound";
 import Profile from "./pages/Profile/Profile";
@@ -28,6 +28,10 @@ function App() {
                     {
                          path: "dashboard",
                          element: <Home />,
+                    },
+                    {
+                         path: "calendar",
+                         element: <Calendar />,
                     },
                     {
                          path: "profile",

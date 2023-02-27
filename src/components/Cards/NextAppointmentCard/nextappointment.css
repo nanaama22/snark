@@ -7,7 +7,7 @@
      filter: drop-shadow(0 20px 13px rgb(91 71 188 / 0.03)) drop-shadow(0 8px 5px rgb(91 71 188 / 0.08));
 }
 
-h4 {
+.n-card h4 {
      color: #747474;
      font-size: 0.938rem;
      font-weight: 600;

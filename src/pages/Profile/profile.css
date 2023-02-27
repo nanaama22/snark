@@ -1,0 +1,135 @@
+.profile {
+     width: 100%;
+     min-height: 100vh;
+     padding: 0;
+
+}
+
+.upper-section {
+     display: grid;
+     grid-template-columns: repeat(3, minmax(0, 1fr));
+     gap: 2.5rem;
+     height: 65%;
+     /* background-color: green; */
+}
+
+.doc-profile-info-card {
+     height: 100%;
+}
+
+.analytics-n-review {
+     display: flex;
+     flex-direction: column;
+     grid-column: span 2 / span 2;
+     /* height: 65%; */
+     justify-content: space-between;
+}
+
+.analytics-n-review > div {
+     /* padding-bottom: 2rem; */
+}
+
+.analytics-n-review > div > * + * {
+     margin-top: 1rem;
+}
+
+.analytics-n-review h4 {
+     font-weight: 600;
+     font-size: 18px;
+     line-height: 27px;
+     letter-spacing: 1px;
+     font-variant: all-small-caps;
+     color: #747474;
+}
+
+.license-n-cert {
+     width: auto;
+     padding: 1rem 0;
+}
+
+.license-n-cert h4 {
+     margin: 1rem 0;
+     font-family: Inter;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 1.125;
+     color: #454444;
+}
+
+.license-n-cert > * + * {
+     margin-bottom: 1.5rem;
+}
+
+.license-content-1 {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.license-content-1 > * + *{
+     margin-left: 16rem;
+     /* margin-right: 16rem; */
+}
+
+.license-content-1 button {
+     height: 48px;
+     padding: 12px 19px;
+     background-color: #1F419D;
+     border: 1.5px solid #1F419D;
+     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+     border-radius: 8px;
+     cursor: pointer;
+}
+
+.expiry-date {
+     color: black;
+}
+
+.expiry-date h4 {
+     font-size: 0.938rem;
+     font-weight: 500;
+     line-height: 16px;
+}
+
+.expiry-date p {
+     font-size: 1.5rem;
+}
+
+.expiry-date  span {
+     text-decoration: underline;
+}
+
+.license-content-2 {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.license-content-2 button {
+     height: 48px;
+     padding: 12px 19px;
+     background-color: #1F419D;
+     border: 1.5px solid #1F419D;
+     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+     border-radius: 8px;
+     cursor: pointer;
+}
+
+.expiry-status-info {
+     color: black;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+}
+
+.expiry-status-info h4 {
+     font-weight: 500;
+     font-size: 0.938rem;
+     line-height: 1rem;
+}
+
+.expiry-status-info p {
+     font-weight: 400;
+     font-size: 0.75rem;
+     line-height: 1rem;
+}

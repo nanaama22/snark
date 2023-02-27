@@ -1,6 +1,6 @@
 import React from "react";
 import Sidebar from "../../components/Sidebar/Sidebar";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Outlet } from "react-router-dom";
 import Home from "../../pages/Home/Home";
 import './layout.css'
 
@@ -9,9 +9,11 @@ export const Layout = () => {
           <div className="layout">
                <Sidebar />
                <div className="layout-content">
-                    <Routes>
+                    <Outlet />
+                    {/* <Routes>
+                         <Route path='/home' element={<Home />}/>
                          <Route path='/' element={<Home />}/>
-                    </Routes>
+                    </Routes> */}
                </div>
           </div>
      );

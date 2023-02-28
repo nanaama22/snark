@@ -1,0 +1,21 @@
+.calendar-page {
+     display: grid;
+     grid-template-columns: repeat(3, minmax(0, 1fr));
+     gap: 1rem;
+     padding: 0;
+}
+
+.calendar-page-header {
+     grid-column: span 3 / span 3;
+}
+
+
+.calendar {
+     /* width: 100%; */
+     padding: 1rem;
+     height: auto;
+     grid-column: span 2 / span 2;
+     background: #FFFFFF;
+     box-shadow: 0px 2.25226px 6.00604px rgba(9, 30, 66, 0.16), 0px 0px 0.750755px rgba(9, 30, 66, 0.31);
+     border-radius: 15px;
+}

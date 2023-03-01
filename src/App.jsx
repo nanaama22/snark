@@ -14,6 +14,8 @@ import Calendar from "./pages/Calendar/Calendar";
 // import Messages from "./pages/Messages/Messages";
 import PageNotFound from "./pages/PageNotFound/PageNotFound";
 import Profile from "./pages/Profile/Profile";
+import Registration from "./pages/Registration/Registration";
+import Login from './pages/Login/Login';
 
 function App() {
      const routes = useRoutes([
@@ -50,6 +52,16 @@ function App() {
           {
                path: "/",
                element: <Navigate to="/app/dashboard" replace />,
+               index: true,
+          },
+          {
+               path: "registration",
+               element: <Registration />,
+               index: true,
+          },
+          {
+               path: "login",
+               element: <Login />,
                index: true,
           },
           {

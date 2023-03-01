@@ -6,7 +6,6 @@ const Messages = () => {
 
      return (
           <div className="layout">
-                <Sidebar />
                 <div className="layout-content">
           <div className="home">
                <div className="middle-content">

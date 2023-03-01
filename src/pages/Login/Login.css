@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.login-inner{
+    width: 60%;
+    margin: 22vh auto auto auto;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2vh;
+}
+
+form{
+    margin-top: 3vh;
+}
+
+.form-group label{
+    margin-bottom: 0.5vh;
+    font-family: 'Poppins', sans-serif;
+    color: #6F6E6E;
+}
+
+.form-group input{
+    background-color: aliceblue;
+    border: none;
+    padding: 17px 0px;
+    border-radius: 7px;
+}
+
+.login-inner h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+
+.b-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+input::placeholder {
+    padding-left: 1vw;
+}
+
+.b-form p{
+    color: #1F419D;
+}
+
+input[type="checkbox"] {
+background-color: white;
+margin-right: 0.8vw;
+}
+
+.signup-text{
+    text-align: center;
+    margin-top: 3vh;
+}
+
+.signup-link{
+    color: #1F419D;
+    font-weight: 600;
+}

@@ -38,6 +38,10 @@ function App() {
                          element: <Profile />,
                     },
                     {
+                         path: "messages",
+                         element: <Messages />,
+                    },
+                    {
                          path: "*",
                          element: <PageNotFound />,
                     },

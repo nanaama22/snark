@@ -11,7 +11,7 @@ const Registration1 = () => {
         <div className="f-container">
             <div className="login-inner">
             <h1><strong>Welcome Back!</strong></h1>
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe.</h3>
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
             <form>
                 <div className="form-group">
                     <label>Email</label>
@@ -24,7 +24,7 @@ const Registration1 = () => {
                 <div className="b-form">
                     <div>
                     <input type="checkbox"/>
-                    <label>Remember me</label>
+                    <label className="c-label">Remember me</label>
                     </div>
                     <p>Forgot id?</p>
                 </div>

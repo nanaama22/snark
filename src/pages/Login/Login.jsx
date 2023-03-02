@@ -2,6 +2,7 @@ import React from 'react';
 import '../Registration/Registration.css';
 import './Login.css';
 import Logo from '../Registration/Logo';
+import { Link } from "react-router-dom";
 
 const Registration1 = () => {
   return (
@@ -28,7 +29,7 @@ const Registration1 = () => {
                     </div>
                     <p>Forgot id?</p>
                 </div>
-                <button type="submit" className="login-btn">login</button>
+                <Link to={'/app/dashboard'} className="menu-link"><button type="submit" className="login-btn">login</button></Link>
             </form>
             <p className="signup-text">Don't have an account? <span className="signup-link"><a>Sign up</a></span></p>
             </div>

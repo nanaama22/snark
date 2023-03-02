@@ -1,42 +1,34 @@
 import Search from "../../components/Search/Search";
 import "./messages.css";
 import Sidebar from "../../components/Sidebar/Sidebar";
+import Navbar from "../../components/Navbar/Navbar";
 
 const Messages = () => {
 
      return (
-          <div className="layout">
-                <div className="layout-content">
-          <div className="home">
-               <div className="middle-content">
-                    <div className="search-n-notification">
-                         <Search />
-                    </div>
+
+      <div className="calendar-page">
+      {/* header */}
+      <div className="calendar-page-header">
+           <Navbar />
+      </div>
+    
+          
+                   
                     {/* start here */}
-<br /><br />
   
- <div style={{'width':'100%'}}>
+ <div className="message-section">
      
       <section className="discussions">
         <div className="discussion">
           <div className="photo">
-            <div className="online"></div>
+           
           </div>
           <div className="desc-contact">
-            <p className="name">Dave Corlew</p>
-            <p className="message">Let's meet for a coffee or something today ?</p>
+            <p className="name">Leslie Alexadar</p>
+            <p className="message">You are welcome. I would schedule...</p>
           </div>
-          <div className="timer">3 min</div>
-        </div>
-
-        <div className="discussion">
-          <div className="photo">
-          </div>
-          <div className="desc-contact">
-            <p className="name">Jerome Seiber</p>
-            <p className="message">I've sent you the annual report</p>
-          </div>
-          <div className="timer">42 min</div>
+          <div className="timer">1 Hour ago</div>
         </div>
       </section>
       
@@ -86,9 +78,6 @@ const Messages = () => {
                     {/* finis here */}
                </div>
              
-          </div>
-          </div>
-          </div>
      );
 };
 

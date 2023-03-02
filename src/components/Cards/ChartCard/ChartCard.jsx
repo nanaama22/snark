@@ -1,7 +1,9 @@
 import './chartcard.css'
+import Charts from '../../Charts/Charts';
 
 const ChartCard = () => {
      return ( 
+          
           <div className='chart-card'>
                <div className='chart-details'>
                    <h4>SUCCESSFUL APPOINTMENTS</h4> 
@@ -9,7 +11,7 @@ const ChartCard = () => {
                </div>
                
                <div className="chart">
-
+               <Charts/>
                </div>
           </div>
       );

@@ -51,7 +51,7 @@ function App() {
           },
           {
                path: "/",
-               element: <Navigate to="/app/dashboard" replace />,
+               element: <Navigate to="/login" replace />,
                index: true,
           },
           {

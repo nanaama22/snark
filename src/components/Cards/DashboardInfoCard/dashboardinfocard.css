@@ -13,8 +13,14 @@
      margin-left: 1rem;
 }
 
-.icon-border {
-     border: 4px solid #94949487;
+.icon-border-green {
+     border: 4px solid green;
+     border-radius: 100%;
+     padding: 1rem;
+}
+
+.icon-border-pink {
+     border: 4px solid pink;
      border-radius: 100%;
      padding: 1rem;
 }

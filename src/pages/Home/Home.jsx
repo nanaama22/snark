@@ -25,9 +25,9 @@ const Home = () => {
                          </div>
                     </div>
                     <div className="dashboard-info">
-                         <DashboardInfoCard name={'Total appointment'} stat={'300'} />
-                         <DashboardInfoCard name={'Earnings'} stat={'KES 300,000'} />
-                         <DashboardInfoCard name={'New Patients'} stat={'62'} />
+                         <DashboardInfoCard name={'Total appointment'} stat={'300'} color={'green'}/>
+                         <DashboardInfoCard name={'Earnings'} stat={'KES 300,000'} color={'pink'}/>
+                         <DashboardInfoCard name={'New Patients'} stat={'62'} color={'pink'}/>
                     </div>
                     <div className="chart">
                          <ChartCard />

@@ -1,0 +1,97 @@
+
+.appointment-card {
+     width: 600px;
+     height: fit-content;
+     border-radius: 1rem;
+     padding: 1.5rem 1.5rem;
+     background-color: white;
+     filter: drop-shadow(0 20px 13px rgb(91 71 188 / 0.03)) drop-shadow(0 8px 5px rgb(91 71 188 / 0.08));
+}
+
+.appointment-bio-data {
+     display: flex;
+}
+
+.appointment-bio-data img {
+     height: 3.75rem;
+}
+
+.appointment-data {
+     width: 100%;
+     margin-left: 1rem;
+     border-bottom: 1.5px solid #E4E4E4;
+}
+
+.appointment-data h6 {
+     color: #949494;
+     font-weight: 600;
+     font-size: 13px;
+     line-height: 20px;
+}
+
+.appointment-patient-name-n-time {
+     width: fit-content;
+     color: black;
+     display: flex;
+     justify-content: space-between;
+     font-weight: 700;
+     font-size: 1rem;
+     line-height: 24px;
+}
+
+.appointment-patient-name-n-time > * + * {
+     margin-left: 1rem;
+}
+
+.appointment-patient-details {
+     /* margin-left: 26%; */
+     /* margin-bottom: 1.5rem; */
+     margin: 0.5rem 0 1.5rem 30%;
+     color: #949494;
+}
+
+.appointment-patient-details > * + * {
+     margin-top: 0.5rem;
+}
+
+.appointment-p-desc {
+     display: grid;
+     grid-template-columns: repeat(3, minmax(0, 1fr));
+     gap: 1rem;
+     font-weight: 400;
+     font-size: 13px;
+     line-height: 20px;
+
+     color: #949494;
+}
+
+.appointment-p-desc-metric {
+     grid-column: span 1 / span 1;
+     text-align: left;
+}
+
+.appointment-p-desc-value {
+     grid-column: span 2 / span 2;
+     text-align: left;
+}
+
+
+
+.appointment-buttons {
+     display: flex;
+}
+
+.appointment-buttons > * + * {
+     margin-left: 0.3rem;
+}
+
+.appointment-button {
+     width: 7rem;
+     padding: 0.4rem 0.5rem;
+     background-color: #F8F8FF;
+     border: 2.2px solid #1F419D;
+     color: #1F419D;
+     font-weight: 500;
+     border-radius: 0.5rem;
+     cursor: pointer;
+}

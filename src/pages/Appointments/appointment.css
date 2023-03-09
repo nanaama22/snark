@@ -104,5 +104,10 @@
 
 .upcoming-appointments {
      display: flex;
-     
+     overflow-x: auto;
+     margin-top: 2rem;
+}
+
+.upcoming-appointments > * + * {
+     margin-left: 1.5rem;
 }

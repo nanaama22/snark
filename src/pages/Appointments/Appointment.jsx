@@ -1,3 +1,4 @@
+import AppointmentCard from "../../components/Cards/AppointmentCard/AppointmentCard";
 import TableCard from "../../components/Cards/TableCard/TableCard";
 import Navbar from "../../components/Navbar/Navbar";
 import './appointment.css'
@@ -52,13 +53,21 @@ const Appointments = () => {
 
                     {/* Horizontally scrollable */}
                     <div className="upcoming-appointments">
-                         
+                         <AppointmentCard />
+                         <AppointmentCard />
+                         <AppointmentCard />
+                         <AppointmentCard />
+                         <AppointmentCard />
+                         <AppointmentCard />
+                         <AppointmentCard />
+                         <AppointmentCard />
+                         <AppointmentCard />
 
                     </div>
 
 
                     {/* incoming requests */}
-                    <h4>INCOMING REQUESTS</h4>
+                    <h4 style={{ margin: "2rem 0 1rem 0" }}>INCOMING REQUESTS</h4>
                     <div></div>
                     <TableCard />
                </div>

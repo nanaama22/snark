@@ -15,6 +15,10 @@
      color: #747474;
 }
 
+.plotted-chart {
+     /* background-color: red; */
+}
+
 .time-button {
      padding: 0.4rem 0.5rem;
      background-color: #F8F8FF;

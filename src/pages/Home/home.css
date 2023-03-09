@@ -71,4 +71,6 @@
 
 .chart {
      margin-bottom: 2rem;
+     width: 100%;
+     background-color: aqua;
 }

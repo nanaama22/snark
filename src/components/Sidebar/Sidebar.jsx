@@ -22,7 +22,7 @@ const Sidebar = () => {
           {id: 6, name:"Patients", path:"/app/patients", icon: ProfileIcon},
      ]
 
-     const [selectedMenuItem, setSelectedMenuItem] = useState(menuItems[0].id);
+     const [selectedMenuItem, setSelectedMenuItem] = useState();
 
      const handleClick = (menuItem) => {
           setSelectedMenuItem(menuItem)

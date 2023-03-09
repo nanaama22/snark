@@ -10,8 +10,8 @@ const ChartCard = () => {
                    <button className='time-button'>This Week</button>
                </div>
                
-               <div className="chart">
-               <Charts/>
+               <div className='plotted-chart'>
+                    <Charts/>
                </div>
           </div>
       );

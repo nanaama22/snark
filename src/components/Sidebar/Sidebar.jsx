@@ -3,21 +3,57 @@ import { IoLogOut } from "react-icons/io5";
 import Logo from "../../assets/logo.png";
 
 // icons
-import DashboardIcon from "../../assets/svg/dashboard.svg";
-import AppointmentIcon from "../../assets/svg/appointment.svg";
-import MessageIcon from "../../assets/svg/chat.svg";
-import ProfileIcon from "../../assets/svg/profile.svg";
-import CalendarIcon from "../../assets/svg/calendar.svg";
-import { Link } from "react-router-dom";
+import DashboardIcon from "../../assets/svg/DashboardIcon";
+import AppointmentIcon from "../../assets/svg/AppointmentIcon";
+import ChatIcon from "../../assets/svg/ChatIcon";
+import ProfileIcon from "../../assets/svg/ProfileIcon";
+import CalendarIcon from "../../assets/svg/CalendarIcon";
+import { Link, NavLink } from "react-router-dom";
+import { useState } from "react";
 
 const Sidebar = () => {
+
+     const menuItems = [
+          {id: 1, name:"Dashboard", path:"/app/dashboard", icon: DashboardIcon},
+          {id: 2, name:"Appointments", path:"/app/appointments", icon: AppointmentIcon},
+          {id: 3, name:"Messages", path:"/app/messages", icon: ChatIcon},
+          {id: 4, name:"Calendar", path:"/app/calendar", icon: CalendarIcon },
+          {id: 5, name:"Profile", path:"/app/profile", icon: ProfileIcon},
+          {id: 6, name:"Patients", path:"/app/patients", icon: ProfileIcon},
+     ]
+
+     const [selectedMenuItem, setSelectedMenuItem] = useState(menuItems[0].id);
+
+     const handleClick = (menuItem) => {
+          setSelectedMenuItem(menuItem)
+          // console.log(menuItem);
+     }
+
+     console.log(selectedMenuItem);
      return (
           <div className="sidebar">
                <div className="logo-n-menu">
                     <img className="logo" src={Logo} alt="" />
                     <div className="menu">
                          <ul>
-                              <Link to={'/app/dashboard'} className="menu-link">
+                              {
+                                   menuItems.map((item) => (
+                                        <Link key={item.id} to={item.path} className="menu-link" onClick={() => handleClick(item.id)}>
+                                             <li>
+                                                  {
+                                                       selectedMenuItem === item.id ? <item.icon className="menu-icon" selected={true}/> : <item.icon className="menu-icon" />
+                                                       
+                                                       // <img style={{ fill: "#1F419D", stroke: "#1F419D", }} src={item.icon} alt="" /> : <img src={item.icon} alt="" />
+                                                  }
+                                                  {
+                                                       selectedMenuItem == item.id ? <p className="selected">{item.name}</p> : <p>{item.name}</p>
+                                                  }
+                                                  
+                                             </li>
+                                        </Link> 
+                                   ))
+                              }
+                              {/* <Link to={'/app/dashboard'} className="menu-link" active>
                                    <li>
                                         <img src={DashboardIcon} alt="" />
                                         <p>Dashboard</p>
@@ -46,7 +82,7 @@ const Sidebar = () => {
                                         <img src={CalendarIcon} alt="" />
                                         <p>Calendar</p>
                                    </li>
-                              </Link>
+                              </Link> */}
                          </ul>
                     </div>
                </div>

@@ -23,7 +23,6 @@ const Calendar = () => {
                     <FullCalendar
                          plugins={[dayGridPlugin]}
                          initialView="dayGridMonth"
-                         //  weekends={false}/
                          events={events}
                          eventContent={renderEventContent}
                     />
@@ -78,7 +77,7 @@ const Calendar = () => {
                          <h4 style={{ color: '#747474', fontSize: '0.938rem', fontWeight: '600', lineHeight: '1.6rem',letterSpacing: '1px'}}>Monday, Jul 4 2023</h4>
                          <h6 style={{ color: '#949494', fontSize: '0.813rem', fontWeight: '500', lineHeight: '1.4rem',letterSpacing: '1px'}}>Don't Miss Scheduled Events</h6>
 
-                         <div class="scheduled-events">
+                         <div className="scheduled-events">
                               <ScheduledEventInfo />
                               <ScheduledEventInfo />
                               <ScheduledEventInfo />

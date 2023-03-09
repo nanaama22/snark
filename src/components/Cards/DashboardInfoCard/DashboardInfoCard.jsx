@@ -1,5 +1,5 @@
 import './dashboardinfocard.css'
-import Appoint from'../../../assets/svg/appointment.svg'
+import Appoint from'../../../assets/svg/AppointmentIcon'
 
 const DashboardInfoCard = ({name, stat,color}) => {
      return ( 

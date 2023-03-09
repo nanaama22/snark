@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 
-.login-page{
+.registration-page, .login-page{
     background-color: aliceblue;
     color: black;
     width: 100vw;
@@ -141,4 +141,72 @@ color: #1F419D;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     margin-top: 3VH;
+}
+
+/* .img-reg{
+    width: 70%;
+} */
+
+.form-group-pair{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#form-pair{
+    width: 45%;
+}
+
+.submit-btn{
+    width: 100%;
+    background-color: #1F419D;
+    padding: 14px 0px 15px 0px;
+    font-size: 1.4vw;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.upload-btn{
+    width: 100%;
+    background-color: #1F419D;
+    padding: 14px 0px 15px 0px;
+    font-size: 1.4vw;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 4vh;
+}
+
+
+.file-uploader{
+        height: 30vh;
+        margin-top: 3vh;
+        background-color: white;
+        border-radius: 7px;
+        border: 2px rgb(65, 46, 194) dotted;
+}
+
+.upload-inner{
+    display: flex;
+    flex-direction: column;
+    margin-left: 35%;
+    margin-top: 8%;
+    line-height: 400%;
+}
+
+.upload-img {
+    width: 15%;
+    margin-left: 20%;
+}
+
+#bottom-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.col-2{
+    margin-left: 12%;
 }

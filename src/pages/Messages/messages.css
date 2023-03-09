@@ -95,7 +95,7 @@
   border-bottom: solid 1px #E0E0E0;
 }
 
-.discussions .discussion .photo {
+.photo {
   margin-left: 20px;
   display: block;
   width: 45px;
@@ -125,6 +125,10 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.discussion-list {
+  overflow-y: auto;
 }
 
 .discussions .discussion .name {
@@ -161,12 +165,23 @@
   box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.100);
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  padding: 0 3rem;
 }
 
 .chat .header-chat .icon {
   margin-left: 30px;
   color: #515151;
   font-size: 14pt;
+}
+
+.chat-header-action-items {
+  display: flex;
+  align-items: center;
+}
+
+.chat-header-action-items > * + * {
+  margin-left: 2rem;
 }
 
 .chat .header-chat .name {
@@ -194,7 +209,7 @@
   margin-bottom: 8px;
 }
 
-.chat .messages-chat .message .photo {
+.photo {
   display: block;
   width: 45px;
   height: 45px;

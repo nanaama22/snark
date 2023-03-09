@@ -4,6 +4,9 @@ import Sidebar from "../../components/Sidebar/Sidebar";
 import Navbar from "../../components/Navbar/Navbar";
 import { IoCreateOutline } from "react-icons/io5";
 import { RiSendPlane2Fill } from "react-icons/ri";
+import { FiMoreVertical } from "react-icons/fi";
+import { FaVideo, FaPhoneAlt } from "react-icons/fa";
+
 
 const Messages = () => {
      return (
@@ -26,100 +29,109 @@ const Messages = () => {
 						<p>Patients</p>
 						<p>Doctors</p>
 					</div>
-                         <div className="discussion">
-                              <div className="photo"></div>
-                              <div className="desc-contact">
-							<div style={{ display: 'flex', justifyContent: 'space-between'}}>
-								<p className="name">Leslie Alexander</p>
-								<p className="timer">1 hour ago</p>
+					<div className="discussion-list">
+						<div className="discussion">
+							<div className="photo"></div>
+							<div className="desc-contact">
+								<div style={{ display: 'flex', justifyContent: 'space-between'}}>
+									<p className="name">Leslie Alexander</p>
+									<p className="timer">1 hour ago</p>
+								</div>
+								<p className="message">
+									You are welcome. I would schedule...
+								</p>
 							</div>
-                                   <p className="message">
-                                        You are welcome. I would schedule...
-                                   </p>
-                              </div>
-                         </div>
-                         <div className="discussion">
-                              <div className="photo"></div>
-                              <div className="desc-contact">
-							<div style={{ display: 'flex', justifyContent: 'space-between'}}>
-								<p className="name">Leslie Alexander</p>
-								<p className="timer">1 hour ago</p>
+						</div>
+						<div className="discussion">
+							<div className="photo"></div>
+							<div className="desc-contact">
+								<div style={{ display: 'flex', justifyContent: 'space-between'}}>
+									<p className="name">Leslie Alexander</p>
+									<p className="timer">1 hour ago</p>
+								</div>
+								<p className="message">
+									You are welcome. I would schedule...
+								</p>
 							</div>
-                                   <p className="message">
-                                        You are welcome. I would schedule...
-                                   </p>
-                              </div>
-                         </div>
-                         <div className="discussion">
-                              <div className="photo"></div>
-                              <div className="desc-contact">
-							<div style={{ display: 'flex', justifyContent: 'space-between'}}>
-								<p className="name">Leslie Alexander</p>
-								<p className="timer">1 hour ago</p>
+						</div>
+						<div className="discussion">
+							<div className="photo"></div>
+							<div className="desc-contact">
+								<div style={{ display: 'flex', justifyContent: 'space-between'}}>
+									<p className="name">Leslie Alexander</p>
+									<p className="timer">1 hour ago</p>
+								</div>
+								<p className="message">
+									You are welcome. I would schedule...
+								</p>
 							</div>
-                                   <p className="message">
-                                        You are welcome. I would schedule...
-                                   </p>
-                              </div>
-                         </div>
-                         <div className="discussion">
-                              <div className="photo"></div>
-                              <div className="desc-contact">
-							<div style={{ display: 'flex', justifyContent: 'space-between'}}>
-								<p className="name">Leslie Alexander</p>
-								<p className="timer">1 hour ago</p>
+						</div>
+						<div className="discussion">
+							<div className="photo"></div>
+							<div className="desc-contact">
+								<div style={{ display: 'flex', justifyContent: 'space-between'}}>
+									<p className="name">Leslie Alexander</p>
+									<p className="timer">1 hour ago</p>
+								</div>
+								<p className="message">
+									You are welcome. I would schedule...
+								</p>
 							</div>
-                                   <p className="message">
-                                        You are welcome. I would schedule...
-                                   </p>
-                              </div>
-                         </div>
-                         <div className="discussion">
-                              <div className="photo"></div>
-                              <div className="desc-contact">
-							<div style={{ display: 'flex', justifyContent: 'space-between'}}>
-								<p className="name">Leslie Alexander</p>
-								<p className="timer">1 hour ago</p>
+						</div>
+						<div className="discussion">
+							<div className="photo"></div>
+							<div className="desc-contact">
+								<div style={{ display: 'flex', justifyContent: 'space-between'}}>
+									<p className="name">Leslie Alexander</p>
+									<p className="timer">1 hour ago</p>
+								</div>
+								<p className="message">
+									You are welcome. I would schedule...
+								</p>
 							</div>
-                                   <p className="message">
-                                        You are welcome. I would schedule...
-                                   </p>
-                              </div>
-                         </div>
-                         <div className="discussion">
-                              <div className="photo"></div>
-                              <div className="desc-contact">
-							<div style={{ display: 'flex', justifyContent: 'space-between'}}>
-								<p className="name">Leslie Alexander</p>
-								<p className="timer">1 hour ago</p>
+						</div>
+						<div className="discussion">
+							<div className="photo"></div>
+							<div className="desc-contact">
+								<div style={{ display: 'flex', justifyContent: 'space-between'}}>
+									<p className="name">Leslie Alexander</p>
+									<p className="timer">1 hour ago</p>
+								</div>
+								<p className="message">
+									You are welcome. I would schedule...
+								</p>
 							</div>
-                                   <p className="message">
-                                        You are welcome. I would schedule...
-                                   </p>
-                              </div>
-                         </div>
+						</div>
+					</div>
                     </section>
 
                     <section className="chat">
                          <div className="header-chat">
-                              <i
-                                   className="icon fa fa-user-o"
-                                   aria-hidden="true"
-                              ></i>
-                              <p className="name">Megan Leib</p>
-                              <i
-                                   className="icon clickable fa fa-ellipsis-h right"
-                                   aria-hidden="true"
-                              ></i>
+						<div style={{ display: 'flex', alignItems: 'center'}}>
+							<div className="photo">
+								<div className="online"></div>
+							</div>
+							<div>
+								<p className="name">Megan Leib</p>	
+								<p className="name" style={{ fontSize: '0.7rem', fontWeight:'400', textTransform: 'capitalize'}}>Active now</p>
+							</div>
+						</div>
+						<div className="chat-header-action-items">
+							<FaPhoneAlt />
+							<FaVideo />
+							<FiMoreVertical />
+						</div>
+						
+                              
                          </div>
                          <div className="messages-chat">
                               <div className="message">
-                                   <div className="photo">
+                                   {/* <div className="photo">
                                         <div className="online"></div>
-                                   </div>
+                                   </div> */}
                                    <p className="text"> Hi, how are you ? </p>
                               </div>
-                              <div className="message text-only">
+                              <div className="message">
                                    <p className="text">
                                         {" "}
                                         What are you doing tonight ? Want to go
@@ -127,7 +139,7 @@ const Messages = () => {
                                    </p>
                               </div>
                               <p className="time"> 14h58</p>
-                              <div className="message text-only">
+                              <div className="message">
                                    <div className="response">
                                         <p className="text">
                                              {" "}
@@ -135,7 +147,7 @@ const Messages = () => {
                                         </p>
                                    </div>
                               </div>
-                              <div className="message text-only">
+                              <div className="message">
                                    <div className="response">
                                         <p className="text">
                                              {" "}
@@ -145,9 +157,9 @@ const Messages = () => {
                               </div>
                               <p className="response-time time"> 15h04</p>
                               <div className="message">
-                                   <div className="photo">
+                                   {/* <div className="photo">
                                         <div className="online"></div>
-                                   </div>
+                                   </div> */}
                                    <p className="text">
                                         {" "}
                                         9 pm at the bar if possible

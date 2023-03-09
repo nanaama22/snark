@@ -1,10 +1,13 @@
 import './dashboardinfocard.css'
-import Appoint from'../../../assets/svg/AppointmentIcon'
+import AppointmentIcon from'../../../assets/svg/AppointmentIcon'
 
 const DashboardInfoCard = ({name, stat,color}) => {
      return ( 
             <div className="dashboard-card">
-                  <img src={Appoint} alt="" className={'icon-border-'+color} />
+                  {/* <img src={AppointmentIcon} alt="" className={'icon-border-'+color} /> */}
+                  <span className={'icon-border-'+color}>
+                        <AppointmentIcon  />
+                  </span>
                   <div className='card-data'>
                         <p className='card-data-name'>{name}</p>
                         <p className='card-data-stat'>{stat}</p>

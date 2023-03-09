@@ -16,6 +16,7 @@ import PageNotFound from "./pages/PageNotFound/PageNotFound";
 import Profile from "./pages/Profile/Profile";
 import Registration from "./pages/Registration/Registration";
 import Login from './pages/Login/Login';
+import Appointments from './pages/Appointments/Appointment';
 
 function App() {
      const routes = useRoutes([
@@ -30,6 +31,10 @@ function App() {
                     {
                          path: "dashboard",
                          element: <Home />,
+                    },
+                    {
+                         path: "appointments",
+                         element: <Appointments />,
                     },
                     {
                          path: "calendar",

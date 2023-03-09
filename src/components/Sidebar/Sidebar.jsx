@@ -26,10 +26,8 @@ const Sidebar = () => {
 
      const handleClick = (menuItem) => {
           setSelectedMenuItem(menuItem)
-          // console.log(menuItem);
      }
 
-     console.log(selectedMenuItem);
      return (
           <div className="sidebar">
                <div className="logo-n-menu">
@@ -43,7 +41,6 @@ const Sidebar = () => {
                                                   {
                                                        selectedMenuItem === item.id ? <item.icon className="menu-icon" selected={true}/> : <item.icon className="menu-icon" />
                                                        
-                                                       // <img style={{ fill: "#1F419D", stroke: "#1F419D", }} src={item.icon} alt="" /> : <img src={item.icon} alt="" />
                                                   }
                                                   {
                                                        selectedMenuItem == item.id ? <p className="selected">{item.name}</p> : <p>{item.name}</p>

@@ -10,10 +10,6 @@ export const Layout = () => {
                <Sidebar />
                <div className="layout-content">
                     <Outlet />
-                    {/* <Routes>
-                         <Route path='/home' element={<Home />}/>
-                         <Route path='/' element={<Home />}/>
-                    </Routes> */}
                </div>
           </div>
      );

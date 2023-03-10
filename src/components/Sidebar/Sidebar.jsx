@@ -85,10 +85,12 @@ const Sidebar = () => {
                </div>
 
                <div className="logout">
-                    <span className="logout-data">
-                         <IoLogOut style={{ fontSize: "1.7rem" }} />
-                         <span>Log Out</span>
-                    </span>
+                    <Link to={'/login'} style={{ color: '#black'}}>
+                         <span className="logout-data">
+                              <IoLogOut style={{ fontSize: "1.7rem" }} />
+                              <span>Log Out</span>
+                         </span>
+                    </Link>
                </div>
           </div>
      );

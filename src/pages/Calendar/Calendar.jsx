@@ -38,9 +38,9 @@ const Calendar = () => {
                               </span>
                          </div>
                          <div className="create-new-event-btn">
-                              <button>
-                                   <BsFillBookmarkPlusFill /> Create New
-                                   Event
+                              <button> <span style={{'color':'white'}}>
+                                   <BsFillBookmarkPlusFill />Create New
+                                   Event</span>
                               </button>
                          </div>
 

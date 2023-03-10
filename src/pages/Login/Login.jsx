@@ -31,7 +31,7 @@ const Registration1 = () => {
                 </div>
                 <Link to={'/app/dashboard'} className="menu-link"><button type="submit" className="login-btn">login</button></Link>
             </form>
-            <p className="signup-text">Don't have an account? <span className="signup-link"><a>Sign up</a></span></p>
+            <p className="signup-text">Don't have an account? <span className="signup-link"><Link to={'/registration1'}>Sign up</Link></span></p>
             </div>
         </div>
         </div>

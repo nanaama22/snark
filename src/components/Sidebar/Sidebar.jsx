@@ -50,36 +50,6 @@ const Sidebar = () => {
                                         </Link> 
                                    ))
                               }
-                              {/* <Link to={'/app/dashboard'} className="menu-link" active>
-                                   <li>
-                                        <img src={DashboardIcon} alt="" />
-                                        <p>Dashboard</p>
-                                   </li>
-                              </Link>
-                              <Link to={'/app/appointments'} className="menu-link">
-                                   <li>
-                                        <img src={AppointmentIcon} alt="" />
-                                        <p>Appointments</p>
-                                   </li>
-                              </Link>
-                              <Link to={'/app/messages'} className="menu-link">
-                                   <li>
-                                        <img src={MessageIcon} alt="" />
-                                        <p>Messages</p>
-                                   </li>
-                              </Link>
-                              <Link to={'/app/profile'} className="menu-link">
-                                   <li>
-                                        <img src={ProfileIcon} alt="" />
-                                        <p>Profile</p>
-                                   </li>
-                              </Link>
-                              <Link to={'/app/calendar'} className="menu-link">
-                                   <li>
-                                        <img src={CalendarIcon} alt="" />
-                                        <p>Calendar</p>
-                                   </li>
-                              </Link> */}
                          </ul>
                     </div>
                </div>

@@ -9,7 +9,7 @@ const Navbar = () => {
                          <Search />
                     </div>
 
-                    <button>Add Appointment</button>
+                    <button style={{'color':'white'}}>Add Appointment</button>
                </div>
           </div>
      );

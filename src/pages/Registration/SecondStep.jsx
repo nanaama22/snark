@@ -2,6 +2,7 @@ import React from 'react';
 import Logo from './Logo';
 import './Registration.css';
 import Uploadicon from '../../assets/Upload icon.png'
+import { Link } from "react-router-dom";
 
 const SecondStep = () => {
   return (
@@ -32,7 +33,7 @@ const SecondStep = () => {
                             <div className='uploaded-files'>
 
                             </div>
-                            <button type='submit' className="upload-btn">Next</button>
+                            <button type='submit' className="upload-btn"><Link to={'/app/dashboard'} style={{'color':'white'}}>Create Account</Link></button>
                         </form>
                         </div>
                     </div>

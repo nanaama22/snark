@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import './Registration.css';
 import Logo from './Logo';
+import { Link } from "react-router-dom";
 
 
 const Registration = () => {
@@ -29,7 +30,7 @@ const Registration = () => {
     </div>
     <p id="help-text"><a href="#" className="help-link">Need any Help?</a></p>
 </div>
-<button type="submit" className="submit-btn">Login</button>
+<button type="submit" className="submit-btn"><Link to={'/registration2'} style={{'color':'white'}}>Next</Link></button>
 </div>
             </div>
         </div>

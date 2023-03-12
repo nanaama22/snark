@@ -1,7 +1,7 @@
 import React from 'react';
 import Logo from './Logo';
 import './Registration.css';
-
+import { Link } from "react-router-dom";
 const FirstStep = () => {
   return (
     <div className="registration-page">
@@ -43,7 +43,7 @@ const FirstStep = () => {
                         <label>Area Of Specialization</label>
                         <input type="text" placeholder="E.G Orthopedic Surgeon"/>
                     </div>
-                    <button type="submit" className="submit-btn">Next</button>
+                    <button type="submit" className="submit-btn"><Link to={'/registration'} style={{'color':'white'}}>Next</Link></button>
                 </form>
             </div>
             </div>

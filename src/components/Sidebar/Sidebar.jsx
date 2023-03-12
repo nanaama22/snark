@@ -53,7 +53,7 @@ const Sidebar = () => {
                          </ul>
                     </div>
                </div>
-
+               
                <div className="logout">
                     <Link to={'/login'} style={{ color: '#black'}}>
                          <span className="logout-data">

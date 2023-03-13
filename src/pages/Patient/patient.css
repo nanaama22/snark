@@ -1,0 +1,181 @@
+.patients-page {
+     padding: 0;
+}
+
+.patients-page-header {
+     grid-column: span 3 / span 3;
+     margin-bottom: 1rem;
+}
+
+.patients-tab {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 2.5rem;
+}
+
+.patients-tab .patients-quick-actions {
+     background: white;
+     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.15);
+     display: flex;
+     justify-content: space-between;
+     width: 80%;
+     padding: 1rem 2rem;
+     border-radius: 10px;
+}
+
+.patients-tab .patients-quick-actions span{
+     display: flex;
+     align-items: center;
+     font-weight: 600;
+     font-size: 0.938rem;
+     color: #1C1E22;
+}
+
+.patients-tab .patients-quick-actions span > * + * {
+     margin-left: 1rem;
+}    
+
+.q-a-border{
+     height: auto;
+     width: 2px;
+     border-left: 2px solid #AFAFAF;
+}
+
+.patients-section {
+     margin-top: 1rem;
+     display: grid;
+     grid-template-columns: repeat(3, minmax(0, 1fr));
+     gap: 3.5rem;
+}
+
+.patients-section .left-section {
+     grid-column: span 1 / span 1;
+}
+
+.patients-section .right-section {
+     grid-column: span 2 / span 2;
+     
+}
+
+.patients-section .left-section .patients-info-card{
+     background: white;
+     box-shadow: 0px 2px 16px rgba(91, 71, 188, 0.205);
+     padding: 1rem 1.5rem;
+     margin: 1rem 0;
+     border-radius: 10px;
+}
+
+.patients-section .left-section .patients-info-card .image-name-loc{
+     display: flex;
+     flex-direction: column;
+     /* justify-content: center; */
+     align-items: center;
+}
+
+.txt{
+     display: grid;
+     grid-template-columns: repeat(3, minmax(0, 1fr));
+     margin-top: 1.5rem;
+     font-size: 0.875rem;
+}
+
+.txt .txt-content {
+     text-align: center;
+     margin-bottom: 1rem;
+}
+
+.txt .txt-content p {
+     color: #767272;
+     font-weight: 600;
+     font-size: 0.875rem;
+     text-transform: uppercase;
+}
+
+.txt .txt-content small {
+     color: #1C1E22;
+     font-size: 0.938rem;
+}
+
+.patients-contact {
+     margin-top: 0.5rem;
+     font-size: 0.9rem;
+}
+
+.patients-contact > * + * {
+     margin-top: 1rem;
+}
+
+.patients-section .left-section .patients-appointment-logger{
+     background: white;
+     box-shadow: 0px 2px 16px rgba(91, 71, 188, 0.205);
+     padding: 1rem 2.5rem 2.5rem;
+     margin: 1rem 0;
+     border-radius: 10px;
+}
+
+.patients-section .left-section .patients-appointment-logger .months-n-values{
+     margin-top: 1rem;
+}
+
+
+
+
+
+
+
+
+.patients-section .right-section .patient-vitals {}
+
+.patients-section .right-section .patient-vitals .patient-vitals-cards {
+     background: white;
+     padding: 2rem;
+     border-radius: 10px;
+     box-shadow: 0px 4px 20px rgba(91, 71, 188, 0.15);
+}
+
+.patients-section .right-section .header-n-button {
+     display: flex;
+     justify-content: space-between;
+     margin: 1rem 0;
+}
+
+
+
+.patients-section .right-section .patient-medical-history .medical-history-card {
+     display: grid;
+     grid-template-columns: repeat(2, minmax(0, 1fr));
+     gap: 1rem 2rem;
+     background: white;
+     box-shadow: 0px 4px 20px rgba(91, 71, 188, 0.15);
+     padding: 1.5rem 2rem;
+     border-radius: 10px;
+     margin-bottom: 2rem;
+}
+
+.patients-section .right-section .patient-medical-history .medical-history-card .disease-content {
+     display: flex;
+     justify-content: space-between;
+}
+
+
+
+
+.patients-section .right-section .patient-medication-list .medication-card {
+     display: grid;
+     grid-template-columns: repeat(2, minmax(0, 1fr));
+     gap: 1rem 2rem;
+     background: white;
+     box-shadow: 0px 4px 20px rgba(91, 71, 188, 0.15);
+     padding: 1.5rem 2rem;
+     border-radius: 10px;
+     margin-bottom: 2rem;
+}
+
+.patients-section .right-section .patient-medication-list .medication-card .medication-content {
+     display: flex;
+     justify-content: space-between;
+}
+
+/* .patients-section .right-section .patient-medication-list .medication-card .medication-content span {     
+} */

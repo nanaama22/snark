@@ -19,6 +19,7 @@ import Login from './pages/Login/Login';
 import Appointments from './pages/Appointments/Appointment';
 import FirstStep from './pages/Registration/FirstStep';
 import SecondStep from './pages/Registration/SecondStep';
+import Patient from './pages/Patient/Patient';
 
 function App() {
      const routes = useRoutes([
@@ -49,6 +50,10 @@ function App() {
                     {
                          path: "messages",
                          element: <Messages />,
+                    },
+                    {
+                         path: "patients",
+                         element: <Patient />,
                     },
                     {
                          path: "*",

@@ -7,8 +7,13 @@ import PatientImg from '../../assets/patient.png'
 import { FaBusinessTime, FaPrescriptionBottleAlt, FaRegStickyNote, FaStickyNote } from 'react-icons/fa';
 import { GiBackwardTime } from 'react-icons/gi';
 
+import VitalsCard from '../../components/Cards/VitalsCard/VitalsCard';
+import PatientAppointmentChart from '../../components/Cards/PatientAppointmentChart';
+
 
 const Patient = () => {
+
+	
      return ( 
 		<div className="patients-page">
 			{/* header */}
@@ -106,7 +111,7 @@ const Patient = () => {
 					<div className="patients-appointment-logger">
 						<h4 style={{textAlign: 'center'}}>Appointments</h4>
 						<div className='months-n-values'> 
-							
+							<PatientAppointmentChart />
 						</div>
 					</div>
 				</div>
@@ -122,7 +127,14 @@ const Patient = () => {
 							<button className='time-button'>This Week</button>
 							
 						</div>
-						<div className="patient-vitals-cards"></div>
+						<div className="patient-vitals-cards">
+							<VitalsCard name={'WEIGHT'} value={'250 lb'} />
+							<VitalsCard name={'HEART RATE'} value={'80 bpm'} />
+							<VitalsCard name={'BLOOD PRESSURE'} value={'120/80 mmHg'} />
+							<VitalsCard name={'BODY TEMP'} value={'36.5 °C'} />
+							<VitalsCard name={'SLEEP TIME'} value={'6.43 hrs'} />
+							<VitalsCard name={'ACTIVITIES'} value={'250 Kcal'} />
+						</div>
 					</div>
 
 

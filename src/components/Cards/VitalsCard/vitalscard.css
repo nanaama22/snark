@@ -1,0 +1,28 @@
+.vitals-card {
+     background: white;
+     border-radius: 5px;
+     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+     padding: 1rem 0 0 0;
+}
+
+.vitals-card .vitals-head {
+     margin-left: 2rem;
+}
+
+.vitals-card .vitals-head .vitals-desc {
+     margin-bottom: -1.5rem;
+}
+
+.vitals-card .vitals-head .vitals-desc h4 {
+     color: #ADB5BD;
+     font-weight: 600;
+     font-size: 15px;
+     line-height: 22px;
+}
+
+.vitals-card .vitals-head .vitals-desc h3 {
+     color: #767272;
+     font-weight: 600;
+     font-size: 1.25rem;
+     line-height: 30px;
+}

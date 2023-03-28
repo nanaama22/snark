@@ -1,7 +1,7 @@
 import Search from '../Search/Search';
 import './navbar.css'
 
-const Navbar = () => {
+const Navbar = ({display}) => {
      return (
           <div className="navbar-page-header">
                <div className="navbar-page-search-n-button">
@@ -9,7 +9,7 @@ const Navbar = () => {
                          <Search />
                     </div>
 
-                    <button style={{'color':'white'}}>Add Appointment</button>
+                   <button style={{'color':'white','display':display}}>Add Appointment</button> <span class="button button5">50%</span>
                </div>
           </div>
      );

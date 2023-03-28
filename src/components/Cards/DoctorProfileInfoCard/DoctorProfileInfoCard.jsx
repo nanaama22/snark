@@ -37,7 +37,7 @@ const DoctorProfileInfoCard = () => {
                     </div>
                     <div className="doctor-info-stat">
                          <p className='d-stat-name'>LinkedIn</p>
-                         <p className='d-stat-value'>linkdn/Profile.com </p>
+                         <p className='d-stat-value'><a href="https://www.linkedin.com/company/techstars/" target="_blank">linkdn/Profile.com </a></p>
                     </div>
                </div>
           </div>

@@ -31,12 +31,12 @@ const FirstStep = () => {
                     </div>
                     <div className="form-group-pair">
                     <div className="form-group" id="form-pair">
-                        <label>State</label>
-                        <input type="text" placeholder="E.G Lagos State"/>
+                        <label>County</label>
+                        <input type="text" placeholder="E.G Busia County"/>
                     </div>
                     <div className="form-group" id="form-pair">
                         <label>City</label>
-                        <input type="text" placeholder="E.G Badagry"/>
+                        <input type="text" placeholder="E.G Nairobi"/>
                     </div>
                     </div>
                     <div className="form-group">

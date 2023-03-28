@@ -1,28 +1,28 @@
 import Patient from "../../../assets/patient.png";
 import './appointmentcard.css'
 
-const AppointmentCard = ({ status }) => {
+const AppointmentCard = ({ name,time,age,gender }) => {
      return (
           <div className="appointment-card">
                <div className="appointment-bio-data">
                     <img src={Patient} alt="" />
                     <div className="appointment-data">
                          <div className="appointment-patient-name-n-time">
-                              <p>Sarah Wellman</p> 
-                              <p>9:00</p>
+                              <p>{name}</p> 
+                              <p>{time}</p>
                          </div>
                          <h6>Video Consultation</h6>
                     </div>
-               </div>
+               </div> 
                <div className="appointment-patient-details">
                     <div className="appointment-p-desc">
                          <p className="appointment-p-desc-metric">Age:</p>
-                         <p className="appointment-p-desc-value">18</p>
+                         <p className="appointment-p-desc-value">{age}</p>
                     </div>
                     <div className="appointment-p-desc">
                          
                          <p className="appointment-p-desc-metric">Gender:</p>
-                         <p className="appointment-p-desc-value">Female</p>
+                         <p className="appointment-p-desc-value">{gender}</p>
                     </div>
                </div>
                <div className="appointment-buttons">

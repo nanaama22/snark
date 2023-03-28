@@ -31,7 +31,7 @@ const Profile = () => {
                                    <h4>Expiry Date</h4>
                                    <p> <span>22</span> / <span>03</span> / <span>23</span> </p>
                               </div>
-                              <button>Renew License</button>     
+                              <button style={{'color':'white'}}><a style={{'color':'white','textDecoration':'none'}} href="https://www.mdcn.gov.ng/page/recent-news/renewal-of-practicing-license-for-year-2023-">Renew License</a></button>   
                          </div>
                     </LicensenCertification>
 
@@ -48,7 +48,7 @@ const Profile = () => {
                                    <h4>Expiry Date</h4>
                                    <p> <span>22</span> / <span>03</span> / <span>23</span> </p>
                               </div>
-                              <button>Renew License</button>     
+                              <button style={{'color':'white'}}><a style={{'color':'white','textDecoration':'none'}} href="https://www.mdcn.gov.ng/page/recent-news/renewal-of-practicing-license-for-year-2023-">Renew License</a></button>         
                          </div>
                     </LicensenCertification>
                </div>

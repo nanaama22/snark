@@ -12,31 +12,31 @@ import {
 const data = [
      {
           name: "MON",
-          pv: 2400,
+          pv: 5,
      },
      {
           name: "TUE",
-          pv: 1398,
+          pv: 22,
      },
      {
           name: "WED",
-          pv: 9800,
+          pv: 12,
      },
      {
           name: "THU",
-          pv: 3908,
+          pv: 25,
      },
      {
           name: "FRI",
-          pv: 4800,
+          pv: 18,
      },
      {
           name: "SAT",
-          pv: 3800,
+          pv: 40,
      },
      {
           name: "SUN",
-          pv: 4300,
+          pv: 18,
      },
 ];
 

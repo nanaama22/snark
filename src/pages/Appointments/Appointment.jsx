@@ -9,7 +9,7 @@ const Appointments = () => {
           <div className="appointment-page">
                {/* header */}
                <div className="appointment-page-header">
-                    <Navbar />
+                    <Navbar showbutton={'true'}/>
                </div>
                <div className="appointment-page-content">
                     <h4>TODAY'S SUMMARY</h4>
@@ -53,15 +53,13 @@ const Appointments = () => {
 
                     {/* Horizontally scrollable */}
                     <div className="upcoming-appointments">
-                         <AppointmentCard />
-                         <AppointmentCard />
-                         <AppointmentCard />
-                         <AppointmentCard />
-                         <AppointmentCard />
-                         <AppointmentCard />
-                         <AppointmentCard />
-                         <AppointmentCard />
-                         <AppointmentCard />
+                         <AppointmentCard name={'Abuya Adamut'} time={'3:45'} age={'23'} gender={'Male'} />
+                         <AppointmentCard name={'Blessing Aasir'} time={'23:12'} age={'18'} gender={'Female'}/>
+                         <AppointmentCard name={'Virtue Absko'} time={'16:00'} age={'33'} gender={'Male'}/>
+                         <AppointmentCard name={'Akeyo Mathew'} time={'09:55'} age={'51'} gender={'Male'}/>
+                         <AppointmentCard name={'Cora Asher'} time={'15:05'} age={'12'} gender={'Male'}/>
+                         <AppointmentCard name={'Duni Declan'} time={'09:37'} age={'36'} gender={'Male'}/>
+                         <AppointmentCard name={'Isla Jasper'} time={'14:20'} age={'45'} gender={'Male'}/>
 
                     </div>
 

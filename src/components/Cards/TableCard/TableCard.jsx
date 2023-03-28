@@ -19,33 +19,33 @@ const TableCard = () => {
                          </thead>
                          <tbody>
                               <tr>
-                                   <td>Eleanor Pena</td>
+                                   <td>Abuya Adamu</td>
                                    <td>Acne</td>
-                                   <td>9:23</td>
+                                   <td>12:23</td>
                                    <td>Video Call</td>
                               </tr>
                               <tr>
-                                   <td>Eleanor Pena</td>
-                                   <td>Acne</td>
-                                   <td>9:23</td>
+                                   <td>Blesssing Aasir</td>
+                                   <td>catarrh</td>
+                                   <td>09:49</td>
                                    <td>Video Call</td>
                               </tr>
                               <tr>
-                                   <td>Eleanor Pena</td>
-                                   <td>Acne</td>
-                                   <td>9:23</td>
+                                   <td>Virtue Absko</td>
+                                   <td>measles</td>
+                                   <td>14:00</td>
                                    <td>Video Call</td>
                               </tr>
                               <tr>
-                                   <td>Eleanor Pena</td>
-                                   <td>Acne</td>
-                                   <td>9:23</td>
+                                   <td>Akeyo Mathew</td>
+                                   <td>diabetes</td>
+                                   <td>17:05</td>
                                    <td>Video Call</td>
                               </tr>
                               <tr>
-                                   <td>Eleanor Pena</td>
-                                   <td>Acne</td>
-                                   <td>9:23</td>
+                                   <td>Cora Asher</td>
+                                   <td>Asthma</td>
+                                   <td>01:50</td>
                                    <td>Video Call</td>
                               </tr>
                          </tbody>

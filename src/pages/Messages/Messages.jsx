@@ -112,7 +112,7 @@ const Messages = () => {
 								<div className="online"></div>
 							</div>
 							<div>
-								<p className="name">Megan Leib</p>	
+								<p className="name">Leslie Alexander</p>	
 								<p className="name" style={{ fontSize: '0.7rem', fontWeight:'400', textTransform: 'capitalize'}}>Active now</p>
 							</div>
 						</div>

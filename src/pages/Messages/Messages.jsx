@@ -46,11 +46,11 @@ const Messages = () => {
 							<div className="photo"></div>
 							<div className="desc-contact">
 								<div style={{ display: 'flex', justifyContent: 'space-between'}}>
-									<p className="name">Leslie Alexander</p>
-									<p className="timer">1 hour ago</p>
+									<p className="name">Amanda Halls</p>
+									<p className="timer">32 min ago</p>
 								</div>
 								<p className="message">
-									You are welcome. I would schedule...
+									Send me the details....
 								</p>
 							</div>
 						</div>
@@ -58,11 +58,11 @@ const Messages = () => {
 							<div className="photo"></div>
 							<div className="desc-contact">
 								<div style={{ display: 'flex', justifyContent: 'space-between'}}>
-									<p className="name">Leslie Alexander</p>
-									<p className="timer">1 hour ago</p>
+									<p className="name">Michael Drills</p>
+									<p className="timer">6 hours ago</p>
 								</div>
 								<p className="message">
-									You are welcome. I would schedule...
+									Next Week will be a break for ....
 								</p>
 							</div>
 						</div>
@@ -70,11 +70,11 @@ const Messages = () => {
 							<div className="photo"></div>
 							<div className="desc-contact">
 								<div style={{ display: 'flex', justifyContent: 'space-between'}}>
-									<p className="name">Leslie Alexander</p>
-									<p className="timer">1 hour ago</p>
+									<p className="name">Hagan Affour</p>
+									<p className="timer">2 min ago</p>
 								</div>
 								<p className="message">
-									You are welcome. I would schedule...
+									Hi.. Good evening and thank you...
 								</p>
 							</div>
 						</div>
@@ -82,11 +82,11 @@ const Messages = () => {
 							<div className="photo"></div>
 							<div className="desc-contact">
 								<div style={{ display: 'flex', justifyContent: 'space-between'}}>
-									<p className="name">Leslie Alexander</p>
-									<p className="timer">1 hour ago</p>
+									<p className="name">Walter Hillson</p>
+									<p className="timer">11 hour ago</p>
 								</div>
 								<p className="message">
-									You are welcome. I would schedule...
+									Send me the invoice of the service...
 								</p>
 							</div>
 						</div>
@@ -94,11 +94,11 @@ const Messages = () => {
 							<div className="photo"></div>
 							<div className="desc-contact">
 								<div style={{ display: 'flex', justifyContent: 'space-between'}}>
-									<p className="name">Leslie Alexander</p>
-									<p className="timer">1 hour ago</p>
+									<p className="name">Anita Wills</p>
+									<p className="timer">2 sec ago</p>
 								</div>
 								<p className="message">
-									You are welcome. I would schedule...
+									Thank you very much.... I am grateful
 								</p>
 							</div>
 						</div>
